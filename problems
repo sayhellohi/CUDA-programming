@@ -1,0 +1,4 @@
+why is the visual studio cannot Compile CUDA function ?
+Answer: no suitable head files. like 
+        #include "cuda_runtime.h"
+        #include "device_launch_parameters.h"
